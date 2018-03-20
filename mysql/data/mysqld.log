@@ -1,0 +1,356 @@
+2018-03-06T02:12:54.156255Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-03-06T02:12:55.134842Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2018-03-06T02:12:55.273650Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2018-03-06T02:12:55.373533Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: e1db8735-20e3-11e8-af28-f44d309cf0b3.
+2018-03-06T02:12:55.390489Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2018-03-06T02:12:55.401944Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2018-03-06T02:12:59.117708Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-03-06T02:12:59.117790Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-03-06T02:12:59.118259Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe (mysqld 5.7.21) starting as process 16516 ...
+2018-03-06T02:12:59.129802Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-06T02:12:59.130687Z 0 [Note] InnoDB: Uses event mutexes
+2018-03-06T02:12:59.131196Z 0 [Note] InnoDB: Memory barrier is not used
+2018-03-06T02:12:59.131743Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-06T02:12:59.132663Z 0 [Note] InnoDB: Number of pools: 1
+2018-03-06T02:12:59.133260Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-03-06T02:12:59.137164Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-03-06T02:12:59.144822Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-06T02:12:59.198133Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-06T02:12:59.333610Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-03-06T02:12:59.334857Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-03-06T02:12:59.412560Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-03-06T02:12:59.434515Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-03-06T02:12:59.438333Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-03-06T02:12:59.440986Z 0 [Note] InnoDB: Waiting for purge to start
+2018-03-06T02:12:59.492606Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2551166
+2018-03-06T02:12:59.494418Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-03-06T02:12:59.494773Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-06T02:12:59.519848Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-03-06T02:12:59.521979Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-03-06T02:12:59.525691Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180306 11:12:59
+2018-03-06T02:12:59.529630Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-03-06T02:12:59.531478Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-03-06T02:12:59.709875Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-03-06T02:12:59.711026Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-03-06T02:13:34.146845Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: Normal shutdown
+
+2018-03-06T02:13:34.151152Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-03-06T02:13:34.153860Z 0 [Note] Shutting down slave threads
+2018-03-06T02:13:34.156326Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-03-06T02:13:34.158956Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-03-06T02:13:34.162332Z 0 [Note] Binlog end
+2018-03-06T02:13:34.166586Z 0 [Note] Shutting down plugin 'ngram'
+2018-03-06T02:13:34.168648Z 0 [Note] Shutting down plugin 'partition'
+2018-03-06T02:13:34.170681Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-03-06T02:13:34.172745Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-03-06T02:13:34.174791Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-03-06T02:13:34.177146Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-03-06T02:13:34.179237Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-03-06T02:13:34.180799Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-03-06T02:13:34.181729Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-03-06T02:13:34.182625Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-03-06T02:13:34.183543Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-03-06T02:13:34.184469Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-03-06T02:13:34.185341Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-03-06T02:13:34.186211Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-03-06T02:13:34.187091Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-03-06T02:13:34.187972Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-03-06T02:13:34.188883Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-03-06T02:13:34.189759Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-03-06T02:13:34.190670Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-03-06T02:13:34.191657Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-03-06T02:13:34.192538Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-03-06T02:13:34.193465Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-03-06T02:13:34.194325Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-03-06T02:13:34.195282Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-03-06T02:13:34.196109Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-03-06T02:13:34.197019Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-03-06T02:13:34.197955Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-03-06T02:13:34.198868Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-03-06T02:13:34.199738Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-03-06T02:13:34.200697Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-03-06T02:13:34.201618Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-03-06T02:13:34.202581Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-03-06T02:13:34.203426Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-03-06T02:13:34.204301Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-03-06T02:13:34.205155Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-03-06T02:13:34.206017Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-03-06T02:13:34.206823Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-03-06T02:13:34.207609Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-03-06T02:13:34.208396Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-03-06T02:13:34.209294Z 0 [Note] InnoDB: Starting shutdown...
+2018-03-06T02:13:34.310949Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-06T02:13:34.314686Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180306 11:13:34
+2018-03-06T02:13:35.141404Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2551194
+2018-03-06T02:13:35.148243Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-03-06T02:13:35.149959Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-03-06T02:13:35.151120Z 0 [Note] Shutting down plugin 'CSV'
+2018-03-06T02:13:35.152217Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-03-06T02:13:35.153568Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-03-06T02:13:35.155355Z 0 [Note] Shutting down plugin 'binlog'
+2018-03-06T02:13:35.158286Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: Shutdown complete
+
+2018-03-06T02:14:15.378467Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-03-06T02:14:15.378549Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-03-06T02:14:15.379023Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe (mysqld 5.7.21) starting as process 17480 ...
+2018-03-06T02:14:15.390428Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-06T02:14:15.391248Z 0 [Note] InnoDB: Uses event mutexes
+2018-03-06T02:14:15.391759Z 0 [Note] InnoDB: Memory barrier is not used
+2018-03-06T02:14:15.392480Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-06T02:14:15.395039Z 0 [Note] InnoDB: Number of pools: 1
+2018-03-06T02:14:15.395707Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-03-06T02:14:15.401138Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-03-06T02:14:15.410506Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-06T02:14:15.462365Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-06T02:14:15.574449Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-03-06T02:14:15.575684Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-03-06T02:14:15.655529Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-03-06T02:14:15.672258Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-03-06T02:14:15.674611Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-03-06T02:14:15.677223Z 0 [Note] InnoDB: Waiting for purge to start
+2018-03-06T02:14:15.729784Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2551194
+2018-03-06T02:14:15.733520Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-06T02:14:15.733647Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-03-06T02:14:15.827436Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-03-06T02:14:15.828762Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-03-06T02:14:15.832628Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-03-06T02:14:15.834198Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-03-06T02:14:15.856184Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180306 11:14:15
+2018-03-06T02:14:16.015566Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-03-06T02:14:16.016347Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-03-06T02:43:06.685057Z 27 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:43:19.563068Z 28 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:43:29.365403Z 29 [Note] Access denied for user 'user'@'localhost' (using password: YES)
+2018-03-06T02:44:35.934690Z 30 [Note] Access denied for user 'administrator'@'localhost' (using password: YES)
+2018-03-06T02:46:33.682521Z 51 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:46:33.870404Z 52 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:46:40.257887Z 53 [Note] Access denied for user 'user'@'localhost' (using password: YES)
+2018-03-06T02:56:07.551833Z 54 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:57:07.491024Z 55 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-03-06T02:58:11.494686Z 56 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:59:16.415619Z 57 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:59:20.243835Z 58 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:59:23.560388Z 59 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T02:59:27.719518Z 60 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-03-06T03:15:23.898622Z 62 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2018-03-06T03:15:36.827928Z 69 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:37.435128Z 70 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:38.479073Z 71 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:39.526606Z 72 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:39.702612Z 73 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:39.875439Z 74 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:40.054881Z 75 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:40.227344Z 76 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:40.408225Z 77 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:40.600636Z 78 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:40.773055Z 79 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:40.952174Z 80 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:41.122636Z 81 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:41.304872Z 82 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:15:41.454903Z 83 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:17:43.332642Z 84 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T03:17:49.157465Z 85 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T04:52:08.418080Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1606647ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-06T06:02:39.037910Z 100 [Note] Access denied for user 'brian'@'localhost' (using password: YES)
+2018-03-06T08:33:31.307750Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: Normal shutdown
+
+2018-03-06T08:33:31.310729Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-03-06T08:33:31.311358Z 0 [Note] Shutting down slave threads
+2018-03-06T08:33:31.312525Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-03-06T08:33:31.314322Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-03-06T08:33:31.317919Z 0 [Note] Binlog end
+2018-03-06T08:33:31.396879Z 0 [Note] Shutting down plugin 'ngram'
+2018-03-06T08:33:31.397887Z 0 [Note] Shutting down plugin 'partition'
+2018-03-06T08:33:31.398358Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-03-06T08:33:31.399277Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-03-06T08:33:31.399733Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-03-06T08:33:31.400962Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-03-06T08:33:31.401923Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-03-06T08:33:31.402947Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-03-06T08:33:31.403816Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-03-06T08:33:31.404352Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-03-06T08:33:31.404896Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-03-06T08:33:31.405441Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-03-06T08:33:31.405958Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-03-06T08:33:31.406464Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-03-06T08:33:31.406978Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-03-06T08:33:31.407490Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-03-06T08:33:31.408026Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-03-06T08:33:31.409010Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-03-06T08:33:31.409786Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-03-06T08:33:31.410462Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-03-06T08:33:31.411092Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-03-06T08:33:31.411645Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-03-06T08:33:31.412180Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-03-06T08:33:31.412754Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-03-06T08:33:31.413252Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-03-06T08:33:31.413795Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-03-06T08:33:31.414353Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-03-06T08:33:31.414899Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-03-06T08:33:31.415417Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-03-06T08:33:31.415989Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-03-06T08:33:31.416521Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-03-06T08:33:31.417048Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-03-06T08:33:31.417533Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-03-06T08:33:31.418072Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-03-06T08:33:31.418543Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-03-06T08:33:31.419060Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-03-06T08:33:31.419563Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-03-06T08:33:31.420036Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-03-06T08:33:31.422925Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-03-06T08:33:31.423956Z 0 [Note] InnoDB: Starting shutdown...
+2018-03-06T08:33:31.530756Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-06T08:33:31.546760Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180306 17:33:31
+2018-03-06T08:33:32.753944Z 0 [Note] InnoDB: Shutdown completed; log sequence number 40978652
+2018-03-06T08:33:32.763454Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-03-06T08:33:32.764249Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-03-06T08:33:32.764786Z 0 [Note] Shutting down plugin 'CSV'
+2018-03-06T08:33:32.765308Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-03-06T08:33:32.765906Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-03-06T08:33:32.767545Z 0 [Note] Shutting down plugin 'binlog'
+2018-03-06T08:33:32.772745Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: Shutdown complete
+
+2018-03-06T08:33:35.588230Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-03-06T08:33:35.588320Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-03-06T08:33:35.589279Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe (mysqld 5.7.21) starting as process 7600 ...
+2018-03-06T08:33:35.612815Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-06T08:33:35.613665Z 0 [Note] InnoDB: Uses event mutexes
+2018-03-06T08:33:35.614224Z 0 [Note] InnoDB: Memory barrier is not used
+2018-03-06T08:33:35.614790Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-06T08:33:35.615681Z 0 [Note] InnoDB: Number of pools: 1
+2018-03-06T08:33:35.616377Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-03-06T08:33:35.620845Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-03-06T08:33:35.628862Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-06T08:33:35.682938Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-06T08:33:36.165616Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-03-06T08:33:36.167111Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-03-06T08:33:36.244087Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-03-06T08:33:36.249197Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-03-06T08:33:36.250198Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-03-06T08:33:36.251175Z 0 [Note] InnoDB: Waiting for purge to start
+2018-03-06T08:33:36.302386Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 40978652
+2018-03-06T08:33:36.303705Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-03-06T08:33:36.304468Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-06T08:33:36.328529Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-03-06T08:33:36.330478Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-03-06T08:33:36.341425Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-03-06T08:33:36.344005Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-03-06T08:33:36.411191Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180306 17:33:36
+2018-03-06T08:33:36.661435Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-03-06T08:33:36.662466Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-03-06T23:40:00.825868Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 52500177ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-07T09:04:03.973586Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47074ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-08T08:39:17.427843Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3599967ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-08T09:14:35.784760Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 161799ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-08T23:45:00.948924Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 52033663ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-09T04:59:40.959255Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1707824ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-09T09:06:30.872814Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 216772ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-10T09:01:40.092316Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 85117366ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-10T12:18:37.941743Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2177074ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-10T15:20:16.454823Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1542442ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-11T23:38:46.466523Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 114478265ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-12T04:55:55.671691Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1898733ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-12T07:55:31.896583Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1358223ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-12T09:17:33.278197Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 931075ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-12T23:36:28.132232Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50666566ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-13T08:42:58.246281Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6015ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-13T23:51:00.371608Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 53130926ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-14T09:06:27.835500Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: Normal shutdown
+
+2018-03-14T09:06:27.911181Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-03-14T09:06:27.914254Z 0 [Note] Shutting down slave threads
+2018-03-14T09:06:27.917538Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-03-14T09:06:27.939966Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-03-14T09:06:28.015825Z 0 [Note] Binlog end
+2018-03-14T09:06:28.114287Z 0 [Note] Shutting down plugin 'ngram'
+2018-03-14T09:06:28.122565Z 0 [Note] Shutting down plugin 'partition'
+2018-03-14T09:06:28.123102Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-03-14T09:06:28.126181Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-03-14T09:06:28.126572Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-03-14T09:06:28.128122Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-03-14T09:06:28.130666Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-03-14T09:06:28.134163Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-03-14T09:06:28.136126Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-03-14T09:06:28.136609Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-03-14T09:06:28.137200Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-03-14T09:06:28.137797Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-03-14T09:06:28.138231Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-03-14T09:06:28.138713Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-03-14T09:06:28.139235Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-03-14T09:06:28.139690Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-03-14T09:06:28.140154Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-03-14T09:06:28.140718Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-03-14T09:06:28.141242Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-03-14T09:06:28.141691Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-03-14T09:06:28.142119Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-03-14T09:06:28.142568Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-03-14T09:06:28.142985Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-03-14T09:06:28.143479Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-03-14T09:06:28.144069Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-03-14T09:06:28.144629Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-03-14T09:06:28.145083Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-03-14T09:06:28.145525Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-03-14T09:06:28.146085Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-03-14T09:06:28.147417Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-03-14T09:06:28.147848Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-03-14T09:06:28.148270Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-03-14T09:06:28.148660Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-03-14T09:06:28.149082Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-03-14T09:06:28.149569Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-03-14T09:06:28.150942Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-03-14T09:06:28.151483Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-03-14T09:06:28.152035Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-03-14T09:06:28.181555Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-03-14T09:06:28.195201Z 0 [Note] InnoDB: Starting shutdown...
+2018-03-14T09:06:28.324269Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-14T09:06:28.330690Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180314 18:06:28
+2018-03-14T09:06:29.320696Z 0 [Note] InnoDB: Shutdown completed; log sequence number 40978680
+2018-03-14T09:06:29.323097Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-03-14T09:06:29.323472Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-03-14T09:06:29.324167Z 0 [Note] Shutting down plugin 'CSV'
+2018-03-14T09:06:29.324437Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-03-14T09:06:29.324739Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-03-14T09:06:29.326235Z 0 [Note] Shutting down plugin 'binlog'
+2018-03-14T09:06:29.331540Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: Shutdown complete
+
+2018-03-14T23:55:07.248181Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-03-14T23:55:07.276200Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-03-14T23:55:07.286596Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe (mysqld 5.7.21) starting as process 3524 ...
+2018-03-14T23:55:07.712522Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-03-14T23:55:07.713916Z 0 [Note] InnoDB: Uses event mutexes
+2018-03-14T23:55:07.714749Z 0 [Note] InnoDB: Memory barrier is not used
+2018-03-14T23:55:07.715681Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-03-14T23:55:07.724523Z 0 [Note] InnoDB: Number of pools: 1
+2018-03-14T23:55:07.732265Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2018-03-14T23:55:07.737235Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-03-14T23:55:07.786060Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-03-14T23:55:07.876812Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-03-14T23:55:09.313583Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-03-14T23:55:09.315237Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-03-14T23:55:09.525287Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2018-03-14T23:55:09.528463Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-03-14T23:55:09.529175Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-03-14T23:55:09.529935Z 0 [Note] InnoDB: Waiting for purge to start
+2018-03-14T23:55:09.614324Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 40978680
+2018-03-14T23:55:09.624512Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-03-14T23:55:09.674779Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\drupal-8.4.5-0\mysql\data\ib_buffer_pool
+2018-03-14T23:55:09.789268Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-03-14T23:55:09.790805Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-03-14T23:55:09.798735Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-03-14T23:55:09.802683Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-03-14T23:55:09.883164Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180315  8:55:09
+2018-03-14T23:55:10.487036Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-03-14T23:55:10.487700Z 0 [Note] C:\Bitnami\DRUPAL~1.5-0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.21'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2018-03-15T05:00:20.496604Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1949117ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-15T07:43:14.670897Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 775255ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-15T08:59:19.914561Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 306456ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-15T23:39:42.158968Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51181000ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-16T01:42:19.239474Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2491299ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-18T23:42:58.216374Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 225514903ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-18T23:54:16.946361Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6825ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-19T05:01:12.690845Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2025229ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-03-19T23:40:06.048843Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 52201275ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
